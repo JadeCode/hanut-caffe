@@ -4,7 +4,7 @@ body {
 }
 span{
     color: red;
-    font: bolder;
+    font: bold;
 }
 
 /*Nav Style - Override*/
