@@ -2,6 +2,10 @@ body {
     padding-top: 20vh;
     height: 100vh;
 }
+span{
+    color: red;
+    font: bolder;
+}
 
 /*Nav Style - Override*/
 .bg-dark {
