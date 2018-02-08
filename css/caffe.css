@@ -1,11 +1,19 @@
 body {
     padding-top: 20vh;
     height: 100vh;
+    background-image: url("../pics/background.png");
 }
+
+/*הערות לעצמי לבדיקה*/
+span{
+    color: red;
+    font-weight: bolder;
+}
+
 
 /*Nav Style - Override*/
 .bg-dark {
-    background-color: #9d7039!important;
+    background-color: #543019!important;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -49,3 +57,6 @@ body {
     background-image: url('../pics/svg/chevron-left.svg');
 }
   
+
+
+/*at-rule or selector expected
