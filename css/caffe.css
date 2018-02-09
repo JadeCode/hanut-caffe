@@ -28,18 +28,21 @@ span{
     bottom: 3rem;
     z-index: 10;
     text-align: center;
-    color: white;
+    /*color: rgb(205, 164, 126);*/
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+.carousel-inner {
+    color: rgb(205, 164, 126);
+}
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
     height: 32rem;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 .carousel-item > img {
     position: absolute;
