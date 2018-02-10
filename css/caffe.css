@@ -60,6 +60,29 @@ span{
     background-image: url('../pics/svg/chevron-left.svg');
 }
 
+.methods {
+    background-image: url("../pics/background5.png")
+}
+
+.carousel-item {
+    padding: 0 6px;
+    float: center;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 100%){
+    .carousel-item {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 100%){
+    .carousel-item {
+        width: 100%;
+    }
+}
+
 /*pics hove for Methods*/
 .hiddenimg {
     display: none;
