@@ -25,6 +25,7 @@ span{
 /* Carousel base class */
 .carousel {
     margin-bottom: 4rem;
+    align-content: center;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -61,7 +62,7 @@ span{
 }
 
 .methods {
-    background-image: url("../pics/background5.png")
+    background-image: url("../pics/background5.png");
 }
 
 .carousel-item {
@@ -119,5 +120,11 @@ span{
     display: block;
   }
 
+  .jumbotron {
+      background-image: url("../pics/background5.png");
+  }
+  .footer{
+      color: #000;
+  }
 
 /*at-rule or selector expected
