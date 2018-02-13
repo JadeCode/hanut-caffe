@@ -15,7 +15,7 @@ body {
     padding-bottom: 0%;
 }
 h1{
-    color: #FFF
+    color: #FFF;
 }
 #btn {
     /*text-align: center;*/
@@ -23,6 +23,7 @@ h1{
     border: 1px solid #461d0c
     color: #461d0c;
     padding: bottom 10px;
+    margin: 3% 0% 0% 2.5%;
     
 }
 #heading {
@@ -32,15 +33,22 @@ h1{
 
 .descritption{
     float: none;
-    text-align: center;
-    display: inline-flex;
+    text-indent: center;
+    margin-left: 35%;
+    display: -webkit-inline-box;
     color: #ff5003;
 }
 .midl-sec{
-    background-image: url("../pics/light-back.png");
+    background-image: url("../pics/lightback.png");
     float: none;
     text-align: center;
     margin: 0%;
+}
+.org-cfe{
+    /*how to make smaller?*/
+}
+#time{
+    margin-top: 5px;
 }
 /*
 #back-img {
