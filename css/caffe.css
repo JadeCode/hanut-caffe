@@ -4,21 +4,43 @@ body {
     /*background-image: url("../pics/background.png");*/
 }
 
-/*הערות לעצמי לבדיקה*/
-span{
-    color: red;
-    font-weight: bolder;
-}
-
 .nav-link {
-    color: #000;
+    color: #FFF;
     padding: 0%
 }
-.top-sec{
+.top-sec {
+    border: 1px solid #461d0c
     color: #461d0c;
+    background-image: url("../pics/dark-back.png");
+    padding-bottom: 0%;
 }
-h1 {
+h1{
+    color: #FFF
+}
+#btn {
+    /*text-align: center;*/
+    float: left;
+    border: 1px solid #461d0c
+    color: #461d0c;
+    padding: bottom 10px;
+    
+}
+#heading {
     text-align: center;
+    float: none;
+}
+
+.descritption{
+    float: none;
+    text-align: center;
+    display: inline-flex;
+    color: #ff5003;
+}
+.midl-sec{
+    background-image: url("../pics/light-back.png");
+    float: none;
+    text-align: center;
+    margin: 0%;
 }
 /*
 #back-img {
