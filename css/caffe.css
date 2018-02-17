@@ -44,12 +44,28 @@ h1{
     text-align: center;
     margin: 0%;
 }
-.org-cfe{
-    /*how to make smaller?*/
+trd-sec{
+    margin-left: 33%;
+    max-width: 60%;
 }
+
+/*.org-cfe{
+    how to make smaller?
+
+}*/
 #time{
     margin-top: 5px;
 }
+.methods{
+    float: none;
+    text-align: center;
+    background-color: #00333f;
+    color: #FFF;
+}
+/*#glyphs{
+    float: left;
+    background-color: #00333f;
+}*/
 /*
 #back-img {
     background-repeat: no-repeat;
