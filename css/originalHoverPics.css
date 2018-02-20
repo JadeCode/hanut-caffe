@@ -1,0 +1,34 @@
+.hiddenimg {
+    display: none;
+  }
+  
+  .hiddentxt {
+    font-weight: bold;
+    color: #F00;
+  }
+  
+  .hiddentxt a {
+    color: #F00;
+    text-decoration: none;
+  }
+  
+  .hiddenclick {
+    font-weight: bold;
+    color: #F00;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .hiddenclick a {
+    color: #F00;
+    text-decoration: none;
+  }
+  
+  .hiddenclick a:visited {
+    color: #F00;
+    text-decoration: none;
+  }
+  
+  .hiddentxt:hover ~ .hiddenimg {
+    display: block;
+  }

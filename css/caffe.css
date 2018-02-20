@@ -1,0 +1,161 @@
+body {
+    padding-top: 20vh;
+    height: 100vh;
+    color: #5a5a5a;
+    overflow-x: hidden;
+}
+.container-fluid {
+    padding: 0; }
+
+.nav-link {
+    color: #FFF;
+    padding: 0%
+}
+.top-sec {
+    border: 1px solid #461d0c
+    color: #461d0c;
+    background-image: url("../pics/dark-back.png");
+    padding-bottom: 0%;
+}
+h1{
+    color: #FFF;
+}
+#btn {
+    /*text-align: center;*/
+    float: left;
+    border: 1px solid #461d0c
+    color: #461d0c;
+    padding: bottom 10px;
+    margin: 3% 0% 0% 2.5%;
+    
+}
+#heading {
+    text-align: center;
+    float: none;
+}
+
+.descritption{
+    float: none;
+    text-indent: center;
+    margin-left: 35%;
+    display: -webkit-inline-box;
+    color: #ff5003;
+}
+.midl-sec{
+    background-image: url("../pics/lightback.png");
+    float: none;
+    text-align: center;
+    margin: 0%;
+}
+trd-sec{
+    margin-left: 33%;
+    max-width: 60%;
+}
+
+.carousel {
+    margin-bottom: 4rem; }
+
+#time{
+    margin-top: 5px;
+}
+.methods{
+    float: none;
+    text-align: center;
+    background-color: #00333f;
+    color: #FFF;
+}
+//* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+    color: #5a5a5a;
+    overflow-x: hidden; }
+  
+  .bg-special {
+    background-color: #4f2513; }
+  
+  .container-fluid {
+    padding: 0; }
+  
+  /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem; }
+  
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    height: 60%;
+    bottom: 3rem;
+    z-index: 10; }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 22rem;
+    padding: 2em 0; }
+  
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    min-width: 18.75rem;
+    height: 18.75rem; }
+  
+  .img-slide {
+    box-shadow: 2px 2px 3px #e39673; }
+  
+  .carousel-indicators {
+    color: #00333f; }
+  
+  .carousel-indicators .active {
+    color: #00333f; }
+  
+  .carousel-control-prev-icon {
+    background-image: url("pics/arrow_left.png") no-repeat; }
+  
+  .carousel-control-next-icon {
+    background-image: url("pics/arrow_right.png") no-repeat; }
+  
+  #brewingOptions {
+    justify-content: space-between;
+    background: #00333f;
+    color: #fff; }
+  
+  .row .position-relative {
+    width: 9rem;
+    height: 3.5rem;
+    text-align: center; }
+  
+  #brewingOptions div h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+  
+  #brewingOptions div p {
+    font-size: 1.5rem; }
+  
+  #brewingOptions div h4 {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    bottom: -.1em;
+    margin-bottom: 0;
+    width: 100%; }
+  
+  a > h4 {
+    color: #fff; }
+  
+  a > h4:hover {
+    color: #ea4a04; }
+  
+  .tooltip-inner {
+    background: #fff;
+    color: #00333f; }
+  
+  .arrow::after {
+    color: #fff; }
+  
+  /* RESPONSIVE CSS
+    -------------------------------------------------- */
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */ }
