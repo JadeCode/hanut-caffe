@@ -1,0 +1,95 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  color: #5a5a5a;
+  overflow-x: hidden; }
+
+.bg-special {
+  background-color: #4f2513; }
+
+.container-fluid {
+  padding: 0; }
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  height: 60%;
+  bottom: 3rem;
+  z-index: 10; }
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 22rem;
+  padding: 2em 0; }
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  right: 25%;
+  min-width: 18.75rem;
+  height: 18.75rem; }
+
+.img-slide {
+  box-shadow: 2px 2px 3px #e39673; }
+
+.carousel-indicators {
+  color: #00333f; }
+
+.carousel-indicators .active {
+  color: #00333f; }
+
+.carousel-control-prev-icon {
+  background-image: url("assets/images/arrow_left.png") no-repeat; }
+
+.carousel-control-next-icon {
+  background-image: url("assets/images/arrow_right.png") no-repeat; }
+
+#brewingOptions {
+  justify-content: space-between;
+  background: #00333f;
+  color: #fff; }
+
+.row .position-relative {
+  width: 9rem;
+  height: 3.5rem;
+  text-align: center; }
+
+#brewingOptions div h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem; }
+
+#brewingOptions div p {
+  font-size: 1.5rem; }
+
+#brewingOptions div h4 {
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  bottom: -.1em;
+  margin-bottom: 0;
+  width: 100%; }
+
+a > h4 {
+  color: #fff; }
+
+a > h4:hover {
+  color: #ea4a04; }
+
+.tooltip-inner {
+  background: #fff;
+  color: #00333f; }
+
+.arrow::after {
+  color: #fff; }
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */ }
