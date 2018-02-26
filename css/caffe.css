@@ -1,19 +1,9 @@
 body {
-<<<<<<< HEAD
-    padding-top: 20vh;
-    height: 100vh;
-    color: #5a5a5a;
-    overflow-x: hidden;
-}
-.container-fluid {
-    padding: 0; }
-=======
     margin-top: 32vh;
     height: 100vh;
     z-index:10000;
     /*background-image: url("../pics/background.png");*/
 }
->>>>>>> b3306e255627611822011fe79f7083d57ac4443c
 
 .nav-link {
     color: #FFF;
@@ -24,12 +14,9 @@ body {
     color: #461d0c;
     background-image: url("../pics/dark-back.png");
     padding-bottom: 0%;
-<<<<<<< HEAD
-=======
     position: fixed;
     top: 0;
     width:100%;
->>>>>>> b3306e255627611822011fe79f7083d57ac4443c
 }
 h1{
     color: #FFF;
@@ -46,6 +33,8 @@ h1{
 #heading {
     text-align: center;
     float: none;
+    margin-left: 0%;
+    margin-right: 1%;
 }
 
 .descritption{
@@ -61,21 +50,14 @@ h1{
     text-align: center;
     margin: 0%;
 }
-trd-sec{
-    margin-left: 33%;
+#about-hanut{
+    margin-left: 27%;
+    margin-right: 27%;
     max-width: 60%;
+    text-align: center;
 }
 
-<<<<<<< HEAD
-.carousel {
-    margin-bottom: 4rem; }
 
-=======
-/*.org-cfe{
-    how to make smaller?
-
-}*/
->>>>>>> b3306e255627611822011fe79f7083d57ac4443c
 #time{
     margin-top: 5px;
 }
@@ -85,20 +67,10 @@ trd-sec{
     background-color: #00333f;
     color: #FFF;
 }
-<<<<<<< HEAD
-//* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-body {
-    color: #5a5a5a;
-    overflow-x: hidden; }
-  
-=======
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
->>>>>>> b3306e255627611822011fe79f7083d57ac4443c
   .bg-special {
     background-color: #4f2513; }
   
@@ -109,13 +81,9 @@ body {
     -------------------------------------------------- */
   /* Carousel base class */
   .carousel {
-<<<<<<< HEAD
-    margin-bottom: 4rem; }
-=======
     margin-bottom: 4rem; 
     position:relative;
 }
->>>>>>> b3306e255627611822011fe79f7083d57ac4443c
   
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -134,13 +102,9 @@ body {
     left: 25%;
     right: 25%;
     min-width: 18.75rem;
-<<<<<<< HEAD
-    height: 18.75rem; }
-=======
     height: 18.75rem;
     z-index: 1;
      }
->>>>>>> b3306e255627611822011fe79f7083d57ac4443c
   
   .img-slide {
     box-shadow: 2px 2px 3px #e39673; }
@@ -152,17 +116,10 @@ body {
     color: #00333f; }
   
   .carousel-control-prev-icon {
-<<<<<<< HEAD
-    background-image: url("pics/arrow_left.png") no-repeat; }
-  
-  .carousel-control-next-icon {
-    background-image: url("pics/arrow_right.png") no-repeat; }
-=======
     background-image: url("assets/images/arrow_left.png") no-repeat; }
   
   .carousel-control-next-icon {
     background-image: url("assets/images/arrow_right.png") no-repeat; }
->>>>>>> b3306e255627611822011fe79f7083d57ac4443c
   
   #brewingOptions {
     justify-content: space-between;
@@ -201,7 +158,15 @@ body {
   
   .arrow::after {
     color: #fff; }
-  
+/*opening text box after ckiking the coffe-methods icons
+  #black-coffee{
+    width: 30%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  */
   /* RESPONSIVE CSS
     -------------------------------------------------- */
   @media (min-width: 40em) {
