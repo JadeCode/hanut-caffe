@@ -12,3 +12,12 @@ $(document).ready(function(){
 }).mouseout(function () {
     $(this).css('background-color', '#336699'); // light blue color
 });
+
+.ready(function{
+    $("#blk-coffe").on(click, function(e){
+        $("p").slideDown();
+    });
+    $("#blk-coffe").on(click, function(e){
+        $("p").slideUp();
+    });
+})
